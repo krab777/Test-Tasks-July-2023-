@@ -36,7 +36,7 @@ Cucumber Dependency
 ## What is Cucumber?
 - Cucumber is a software tool that supports behavior-driven development
 - Cucumber use Gherkin language as a parser
-- It supports various language liks Java, JavaScript, Ruby & Python
+- It supports various language like Java, JavaScript, Ruby & Python
 - Cucumber is free to use
 
 ## What is BDD?
@@ -76,6 +76,5 @@ Cucumber Dependency
     - Scenario
     - Scenario Outline
     - Examples
-- Tags can be used in conditional format using "And", "or" & "not"
-- It is similar to groups in TestNG
+- Tags can be used in conditional format using "And", "or" & "not"s
 
