@@ -4,26 +4,32 @@
 Selenium Dependency
 ```
 <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>4.10.0</version>
+  <scope>test</scope>
+</dependency>
+<dependency>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter-api</artifactId>
+  <version>5.9.2</version>
+  <scope>test</scope>
 </dependency>
 ```
 
 Cucumber Dependency
 ```
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>4.2.2</version>
+  <groupId>io.cucumber</groupId>
+  <artifactId>cucumber-java</artifactId>
+  <version>7.13.0</version>
+  <scope>test</scope>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-testng</artifactId>
-    <version>4.2.2</version>
+  <groupId>io.cucumber</groupId>
+  <artifactId>cucumber-core</artifactId>
+  <version>7.13.0</version>
+  <scope>test</scope>
 </dependency>
 ```
 
